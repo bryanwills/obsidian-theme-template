@@ -1,0 +1,122 @@
+/* license.css */
+/* ---------------------------------------------------------------------------
+
+<YOUR_THEME_NAME> by @<YOUR_GITHUB_ID>
+
+<YOUR_THEME_DESCRIPTION>
+
+Readme:
+<YOUR_GITHUB_REPOSITORY_URL
+
+------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020-2024 <YOUR NAME or YOUR ORGANIZATION> (@<YOUR_GITHUB_ID>)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+
+/* main.min.css */
+
+
+/* plugin-compatibility.css */
+/* Plugin compatibility */
+
+/* @plugins
+core:
+-
+community:
+-
+ */
+
+/* style-settings-definition.css */
+/* @settings
+
+name: Garden
+id: garden-style
+settings:
+
+# 🧠 interface-a
+	-
+		title: Interface Ab Settings
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		title: "Syntax: keywords"
+		description: Syntax highlighting for keywords
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+
+# 🫧 interface-b
+	-
+		title: Interface B Settings
+		type: heading
+		level: 2
+		collapsed: true
+
+	-
+		title: Interface C Settings
+		type: heading
+		level: 2
+		collapsed: true
+
+*/
+
+/* @settings
+
+name: Garden Advanced Settings
+id: garden-advanced
+settings:
+
+	-
+		title: Interface D Settings
+		type: heading
+		level: 2
+		collapsed: true
+
+*/
+
+/* @settings
+
+name: Garden Community Plugins Settings
+id: garden-community-plugins
+settings:
+
+	-
+		title: Interface E Settings
+		type: heading
+		level: 2
+		collapsed: true
+
+	-
+		title: Interface F Settings
+		type: heading
+		level: 2
+		collapsed: true
+
+*/
+
+
+

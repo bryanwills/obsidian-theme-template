@@ -1,0 +1,7 @@
+{
+  "name": "<YOUR_THEME_NAME>",
+  "version": "0.0.1",
+  "minAppVersion": "1.16.0",
+  "author": "<YOUR_NAME>",
+  "authorUrl": "<YOUR_GITHUB_PROFILE_URL>"
+}

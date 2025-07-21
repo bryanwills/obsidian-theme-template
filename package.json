@@ -1,0 +1,41 @@
+{
+  "name": "obsidian-theme-template",
+  "version": "0.0.1",
+  "description": "<YOUR_THEME_DESCRIPTION>",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite build --watch",
+    "build": "cross-env NODE_ENV=production vite build",
+    "version": "tsx version-bump.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<YOUR_GITHUB_REPOSITORY_URL>"
+  },
+  "obsidian": {
+    "name": "<YOUR_THEME_NAME>",
+    "author": "<YOUR_NAME>",
+    "authorUrl": "<YOUR_GITHUB_PROFILE_URL>",
+    "minAppVersion": "1.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.13",
+    "@vitejs/plugin-legacy": "^7.0.0",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.3.0",
+    "postcss": "^8.5.6",
+    "sass": "^1.89.2",
+    "terser": "^5.43.1",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4",
+    "tsx": "^4.7.4"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "> 0.2%",
+    "not ie <= 11"
+  ]
+}
